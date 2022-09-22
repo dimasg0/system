@@ -1,6 +1,6 @@
 <?php 
 //проверка полученыых данных
-echo "<ul style=\"list-style-type: none;\">";
+echo   "<ul style=\"list-style-type: none;\">";
   echo "<li>Firstname: $fname</li>";
   echo "<li>Lastname: $lname</li>";
   echo "<li>Phone: $phone</li>";
@@ -9,8 +9,8 @@ echo "<ul style=\"list-style-type: none;\">";
   echo "<li>ClickID: $click_id</li> ";
   echo "<li>UserAgent: $user_agent</li> ";
   echo "<li>URL: $URL</li>";
-   echo "<li>======================</li>";
-echo "</ul>";
+  echo "<li>======================</li>";
+echo   "</ul>";
 
 //глобальная переменная для получения результата поиска нужнной ссылки, изначально False(не найдено)
 $global_res = FALSE;
